@@ -100,7 +100,7 @@
 
   function renderFooter() {
     const c = SITE_CONFIG.contact;
-    footerContact.textContent = `📧 ${c.email}  |  📱 ${c.phone}  |  微信：${c.wechat}`;
+    footerContact.textContent = `📧 ${c.email}`;
   }
 
   // ========== Modal 逻辑 ==========
