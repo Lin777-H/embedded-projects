@@ -19,8 +19,6 @@ const SITE_CONFIG = {
   bio: "惠州学院电子信息工程本科，具备从方案设计到代码落地的独立开发能力",
   contact: {
     email: "3194563857@qq.com",
-    phone: "17722911726",
-    wechat: "LastCrazy_H_7",
   },
 
   // -- 技能标签 --
