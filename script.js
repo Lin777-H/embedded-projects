@@ -93,7 +93,8 @@
   }
 
   function renderFooter() {
-    footerContact.textContent = `📧 ${SITE_CONFIG.contact}`;
+    const c = SITE_CONFIG.contact;
+    footerContact.textContent = `📧 ${c.email}  |  📱 ${c.phone}  |  微信：${c.wechat}`;
   }
 
   // ========== Modal 逻辑 ==========
