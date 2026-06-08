@@ -13,6 +13,7 @@
 
 const SITE_CONFIG = {
   // -- 个人信息 --
+  avatar: "avatar.jpg",
   name: "林楚淮",
   title: "嵌入式软件开发工程师",
   bio: "惠州学院电子信息工程本科，具备从方案设计到代码落地的独立开发能力",

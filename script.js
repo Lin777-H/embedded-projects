@@ -28,6 +28,12 @@
   // ========== 渲染页面 ==========
 
   function renderHero() {
+    const avatarImg = $("#avatar-img");
+    if (SITE_CONFIG.avatar) {
+      avatarImg.src = SITE_CONFIG.avatar;
+    } else {
+      avatarImg.style.display = "none";
+    }
     heroName.textContent = SITE_CONFIG.name;
     heroTitle.textContent = SITE_CONFIG.title;
     heroBio.textContent = SITE_CONFIG.bio;
